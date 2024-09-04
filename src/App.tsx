@@ -1,7 +1,8 @@
 import "./App.css";
+import PaymentGateway from "./core/components/payment-gateway/PaymentGateway";
 
 function App() {
-  return <span>ETransfer</span>;
+  return <PaymentGateway />;
 }
 
 export default App;
